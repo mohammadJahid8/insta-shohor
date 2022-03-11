@@ -61,15 +61,51 @@
 
     <footer class="mt-5">
         <div class=" container p-4 faqs">
-            <h3 class="text-center">FAQS</h3>
+            <h3 class="text-center mb-3">FREQUENTLY ASKED QUESTIONS</h3>
             <h5>How Does JavaScript works?</h5>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, fugiat.Lorem ipsum dolor sit, amet
-                consectetur adipisicing elit. Libero, fugiatLorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Libero, fugiatLorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, fugiat</p>
-            <h5>What does JavaScript Event loop do?</h5>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, fugiat.</p>
+            <p class="answer ">JavaScript is synchronous single threaded programming language.It is also known as
+                scripting language.It runs inside the
+                browser by javascript engine.Below are the steps of how javasript runs:</p>
+            <ul class="answer">
+                <li>In every engine there is a parser which parse the javascript code.The parser checks the code whether
+                    it is ok or not.</li>
+                <li>After parsing it will create Abstract syntax tree.After AST the code is converted to machine code
+                </li>
+                <li>After converting to machine code, then the code runs thus we get our output.
+                </li>
+
+            </ul>
+            
             <h5>What is the difference between local storage and session storage?</h5>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, fugiat.</p>
+            <p class="answer">Local storage and session storage is mostly similar. But there are some common differences
+                which are mentioned below:</p>
+            <table class="answer">
+                <tr>
+                    <th>Local Storage</th>
+                    <th>Session Storage</th>
+                </tr>
+                <tr>
+                    <td>Data remains permanently even if the domain is opened in a new tab, or the browser is closed and
+                        reopened</td>
+                    <td>Data is stored temporarily as long as the tab or the browser is open.</td>
+
+                </tr>
+                <tr>
+                    <td>Data can be loaded again</td>
+                    <td>Data cant be laoded again</td>
+
+                </tr>
+                <tr>
+                    <td>Has 5 mb limit</td>
+                    <td>Has 5-10 mb limit</td>
+
+                </tr>
+                <tr>
+                    <td>Has Expiration</td>
+                    <td>Has no Expiration</td>
+
+                </tr>
+            </table>
         </div>
     </footer>
 
